@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa Banaras — Stay at the Heart of Varanasi</title>
+  <meta name="description" content="A peaceful retreat in Godowlia, 500m from Kashi Vishwanath Mandir and Dashashwamedh Ghat. 3 beds, 2 baths, Wi-Fi, 24x7 hot water." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Yatra+One&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🪔%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- Decorative top border -->
+  <div class="top-border" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#top" class="nav-logo">
+      <span class="nav-logo-mark">ॐ</span>
+      <span class="nav-logo-text">
+        <span class="nav-logo-title">Casa Banaras</span>
+        <span class="nav-logo-sub">काशी · Varanasi</span>
+      </span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#nearby">Nearby</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="https://www.airbnb.com/rooms/1541820174478965437" target="_blank" rel="noopener" class="nav-book">Book on Airbnb</a>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="top">
+    <!-- ghat silhouette backdrop -->
+    <div class="hero-bg" aria-hidden="true">
+      <svg class="ghat-svg" viewBox="0 0 1440 500" preserveAspectRatio="xMidYEnd slice">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#ffb347"/>
+            <stop offset="45%" stop-color="#f97316"/>
+            <stop offset="100%" stop-color="#7c2d12"/>
+          </linearGradient>
+          <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#fef3c7"/>
+            <stop offset="60%" stop-color="#fbbf24"/>
+            <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <rect width="1440" height="500" fill="url(#sky)"/>
+        <circle cx="1120" cy="180" r="80" fill="url(#sun)"/>
+        <!-- Temple spires far -->
+        <g fill="#3a1508" opacity="0.55">
+          <path d="M 100 500 L 100 380 Q 130 340 160 380 L 160 500 Z"/>
+          <path d="M 180 500 L 180 360 Q 215 300 250 360 L 250 500 Z"/>
+          <path d="M 280 500 L 280 330 Q 310 280 340 330 L 340 500 Z"/>
+          <circle cx="220" cy="290" r="8"/>
+        </g>
+        <!-- Main ghat buildings -->
+        <g fill="#4a1a0a">
+          <rect x="380" y="320" width="140" height="180"/>
+          <rect x="540" y="290" width="90" height="210"/>
+          <path d="M 585 260 L 550 290 L 620 290 Z"/>
+          <rect x="650" y="310" width="120" height="190"/>
+          <rect x="790" y="280" width="160" height="220"/>
+          <!-- Temple with shikhara -->
+          <rect x="970" y="310" width="100" height="190"/>
+          <path d="M 1020 250 L 985 310 L 1055 310 Z"/>
+          <circle cx="1020" cy="245" r="6"/>
+          <!-- Windows/arches cutouts -->
+        </g>
+        <g fill="#f97316" opacity="0.25">
+          <rect x="400" y="370" width="18" height="28"/>
+          <rect x="440" y="370" width="18" height="28"/>
+          <rect x="480" y="370" width="18" height="28"/>
+          <rect x="560" y="340" width="15" height="22"/>
+          <rect x="595" y="340" width="15" height="22"/>
+          <rect x="670" y="360" width="16" height="24"/>
+          <rect x="710" y="360" width="16" height="24"/>
+          <rect x="745" y="360" width="16" height="24"/>
+          <rect x="810" y="330" width="18" height="26"/>
+          <rect x="850" y="330" width="18" height="26"/>
+          <rect x="890" y="330" width="18" height="26"/>
+          <rect x="990" y="360" width="16" height="24"/>
+          <rect x="1035" y="360" width="16" height="24"/>
+        </g>
+        <!-- Stepped ghats -->
+        <g fill="#2a0e05">
+          <rect x="0" y="460" width="1440" height="40"/>
+          <rect x="0" y="440" width="1440" height="22" opacity="0.6"/>
+          <rect x="0" y="420" width="1440" height="22" opacity="0.4"/>
+        </g>
+        <!-- Water with boats -->
+        <g fill="#1e1b4b" opacity="0.3">
+          <ellipse cx="200" cy="478" rx="50" ry="4"/>
+          <ellipse cx="450" cy="482" rx="40" ry="3"/>
+          <ellipse cx="900" cy="478" rx="60" ry="4"/>
+          <ellipse cx="1250" cy="482" rx="45" ry="3"/>
+        </g>
+      </svg>
+    </div>
+
+    <!-- floating diyas -->
+    <div class="diyas" aria-hidden="true">
+      <span class="diya d1">🪔</span>
+      <span class="diya d2">🪔</span>
+      <span class="diya d3">🪔</span>
+      <span class="diya d4">🪔</span>
+      <span class="diya d5">🪔</span>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="line"></span>
+        <span>काशी · बनारस · Banaras</span>
+        <span class="line"></span>
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-title-1">Casa</span>
+        <span class="hero-title-2">Banaras</span>
+      </h1>
+      <p class="hero-sub">A peaceful retreat in the vibrant lanes of Godowlia — just 500 meters from Kashi Vishwanath Mandir &amp; Dashashwamedh Ghat</p>
+      <div class="hero-cta">
+        <a href="https://www.airbnb.com/rooms/1541820174478965437" target="_blank" rel="noopener" class="btn btn-primary">Book Your Stay</a>
+        <a href="#gallery" class="btn btn-ghost">Explore Home</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>3</strong><span>Beds</span></div>
+        <div class="stat-div"></div>
+        <div><strong>2</strong><span>Baths</span></div>
+        <div class="stat-div"></div>
+        <div><strong>500m</strong><span>to Kashi</span></div>
+        <div class="stat-div"></div>
+        <div><strong>24×7</strong><span>Hot Water</span></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>✦ Kashi Vishwanath</span><span>🪔 Ganga Aarti</span><span>✦ Dashashwamedh Ghat</span><span>🌼 Banarasi Paan</span><span>✦ Sarnath</span><span>🛕 Manikarnika Ghat</span><span>✦ Kachori Gali</span><span>🎶 Hindustani Music</span>
+      <span>✦ Kashi Vishwanath</span><span>🪔 Ganga Aarti</span><span>✦ Dashashwamedh Ghat</span><span>🌼 Banarasi Paan</span><span>✦ Sarnath</span><span>🛕 Manikarnika Ghat</span><span>✦ Kachori Gali</span><span>🎶 Hindustani Music</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <div class="section-eyebrow">About the Home</div>
+      <h2 class="section-title">Where <em>tradition</em> meets <em>comfort</em></h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="lead">
+          Welcome to <strong>Casa Banaras</strong> — a peaceful retreat tucked into the vibrant lanes of Godowlia, the beating heart of the oldest living city in the world.
+        </p>
+        <p>
+          Our spacious, airy rooms offer the perfect blend of comfort and tradition. Whether you're here to witness the Ganga Aarti, seek blessings at Kashi Vishwanath, or simply get lost in the spiritual energy of Banaras — this is your home away from home.
+        </p>
+        <p>
+          Ideal for <strong>families</strong> and <strong>groups of friends</strong>, with both Western and Indian toilet options, 24×7 hot water, fast Wi-Fi, and a location that puts everything within walking distance.
+        </p>
+        <div class="about-badges">
+          <span class="badge">🛕 500m from Kashi Vishwanath</span>
+          <span class="badge">🚶 Walk to Dashashwamedh Ghat</span>
+          <span class="badge">🏠 Whole Home · Godowlia</span>
+        </div>
+      </div>
+      <div class="about-ornament" aria-hidden="true">
+        <!-- Mandala SVG -->
+        <svg viewBox="0 0 400 400" class="mandala">
+          <defs>
+            <radialGradient id="mandalaGrad" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#fbbf24"/>
+              <stop offset="70%" stop-color="#ea580c"/>
+              <stop offset="100%" stop-color="#7c2d12"/>
+            </radialGradient>
+          </defs>
+          <g fill="none" stroke="url(#mandalaGrad)" stroke-width="1.5">
+            <circle cx="200" cy="200" r="180"/>
+            <circle cx="200" cy="200" r="150"/>
+            <circle cx="200" cy="200" r="120"/>
+            <circle cx="200" cy="200" r="90"/>
+            <circle cx="200" cy="200" r="60"/>
+            <circle cx="200" cy="200" r="30"/>
+          </g>
+          <g fill="url(#mandalaGrad)">
+            <!-- Petal pattern -->
+            <g transform="translate(200,200)">
+              <!-- 16 petals -->
+              <g id="petal-group">
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(22.5)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(45)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(67.5)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(90)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(112.5)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(135)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(157.5)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(180)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(202.5)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(225)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(247.5)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(270)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(292.5)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(315)"/>
+                <path d="M 0 -170 Q 15 -150 0 -120 Q -15 -150 0 -170 Z" transform="rotate(337.5)"/>
+              </g>
+              <!-- Inner petals -->
+              <g opacity="0.85">
+                <path d="M 0 -105 Q 12 -85 0 -65 Q -12 -85 0 -105 Z"/>
+                <path d="M 0 -105 Q 12 -85 0 -65 Q -12 -85 0 -105 Z" transform="rotate(45)"/>
+                <path d="M 0 -105 Q 12 -85 0 -65 Q -12 -85 0 -105 Z" transform="rotate(90)"/>
+                <path d="M 0 -105 Q 12 -85 0 -65 Q -12 -85 0 -105 Z" transform="rotate(135)"/>
+                <path d="M 0 -105 Q 12 -85 0 -65 Q -12 -85 0 -105 Z" transform="rotate(180)"/>
+                <path d="M 0 -105 Q 12 -85 0 -65 Q -12 -85 0 -105 Z" transform="rotate(225)"/>
+                <path d="M 0 -105 Q 12 -85 0 -65 Q -12 -85 0 -105 Z" transform="rotate(270)"/>
+                <path d="M 0 -105 Q 12 -85 0 -65 Q -12 -85 0 -105 Z" transform="rotate(315)"/>
+              </g>
+              <circle r="18"/>
+              <circle r="6" fill="#fef3c7"/>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="section-head">
+      <div class="section-eyebrow">The Rooms</div>
+      <h2 class="section-title">Step <em>inside</em> the home</h2>
+    </div>
+
+    <div class="gallery-grid">
+      <figure class="g-item g-large">
+        <img src="images/bedroom-1.jpg" alt="Master bedroom with textured feature wall, pendant lighting and ambient lamp" loading="lazy" />
+        <figcaption>
+          <span class="g-label">01 · Bedroom</span>
+          <span class="g-title">The Kashi Suite</span>
+          <span class="g-desc">Textured feature wall · pendant trio · king bed</span>
+        </figcaption>
+      </figure>
+
+      <figure class="g-item">
+        <img src="images/bedroom-2.jpg" alt="Bedroom with damask wallpaper, wall sconce and ceiling fan" loading="lazy" />
+        <figcaption>
+          <span class="g-label">02 · Bedroom</span>
+          <span class="g-title">The Ganga Room</span>
+          <span class="g-desc">Damask motif · warm sconce · queen bed</span>
+        </figcaption>
+      </figure>
+
+      <figure class="g-item">
+        <img src="images/bedroom-3.jpg" alt="Third bedroom with intricate headboard and tripod floor lamp" loading="lazy" />
+        <figcaption>
+          <span class="g-label">03 · Bedroom</span>
+          <span class="g-title">The Shiva Room</span>
+          <span class="g-desc">Carved headboard · linen lampshade</span>
+        </figcaption>
+      </figure>
+
+      <figure class="g-item">
+        <img src="images/living-room.jpg" alt="Living room with plush blue sectional, wooden panel and decorative wall plates" loading="lazy" />
+        <figcaption>
+          <span class="g-label">04 · Living</span>
+          <span class="g-title">The Baithak</span>
+          <span class="g-desc">Indigo sectional · wood panel · artisan plates</span>
+        </figcaption>
+      </figure>
+
+      <figure class="g-item">
+        <img src="images/lounge.jpg" alt="Traditional Indian floor seating with Persian rug, cushions and low table" loading="lazy" />
+        <figcaption>
+          <span class="g-label">05 · Lounge</span>
+          <span class="g-title">The Diwan</span>
+          <span class="g-desc">Floor seating · Persian rug · miniature art</span>
+        </figcaption>
+      </figure>
+
+      <figure class="g-item">
+        <img src="images/dining.jpg" alt="Dining area with wooden table set for four and large window" loading="lazy" />
+        <figcaption>
+          <span class="g-label">06 · Dining</span>
+          <span class="g-title">The Bhojan Kaksh</span>
+          <span class="g-desc">Four-seater · natural light · fridge stocked</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- AMENITIES -->
+  <section class="amenities" id="amenities">
+    <div class="section-head">
+      <div class="section-eyebrow">Everything you need</div>
+      <h2 class="section-title">Thoughtful <em>amenities</em></h2>
+    </div>
+    <div class="amenities-grid">
+      <div class="amenity"><div class="amenity-icon">📶</div><h3>High-Speed Wi-Fi</h3><p>Stream, work, and stay connected throughout the home.</p></div>
+      <div class="amenity"><div class="amenity-icon">🚿</div><h3>24×7 Hot Water</h3><p>Hot showers whenever you want — no waiting, no surprises.</p></div>
+      <div class="amenity"><div class="amenity-icon">🚽</div><h3>Western &amp; Indian Toilets</h3><p>Both options available across the two bathrooms.</p></div>
+      <div class="amenity"><div class="amenity-icon">❄️</div><h3>Air Conditioning</h3><p>Every bedroom stays cool through the Banaras summer.</p></div>
+      <div class="amenity"><div class="amenity-icon">🍳</div><h3>Kitchen Access</h3><p>Refrigerator, dining area and basics for simple meals.</p></div>
+      <div class="amenity"><div class="amenity-icon">🛏️</div><h3>Fresh Linens</h3><p>Crisp white sheets and comfortable bedding on every bed.</p></div>
+      <div class="amenity"><div class="amenity-icon">🧼</div><h3>Spotless Cleaning</h3><p>Deep-cleaned before every stay. Toiletries included.</p></div>
+      <div class="amenity"><div class="amenity-icon">🗝️</div><h3>Self Check-In</h3><p>Arrive on your schedule — easy key handover.</p></div>
+    </div>
+  </section>
+
+  <!-- NEARBY ATTRACTIONS -->
+  <section class="nearby" id="nearby">
+    <div class="section-head">
+      <div class="section-eyebrow">Your neighbourhood</div>
+      <h2 class="section-title">Walk to the <em>soul</em> of the city</h2>
+    </div>
+    <div class="nearby-grid">
+      <article class="place">
+        <div class="place-art place-art-kashi" aria-hidden="true">
+          <svg viewBox="0 0 200 200">
+            <g fill="#fbbf24">
+              <path d="M 100 30 L 80 70 L 120 70 Z"/>
+              <rect x="85" y="70" width="30" height="50"/>
+              <path d="M 70 120 L 130 120 L 135 140 L 65 140 Z"/>
+              <rect x="75" y="140" width="50" height="40"/>
+              <circle cx="100" cy="22" r="6"/>
+              <rect x="97" y="12" width="6" height="14"/>
+            </g>
+          </svg>
+        </div>
+        <div class="place-body">
+          <span class="place-dist">500 m · 6 min walk</span>
+          <h3>Kashi Vishwanath Mandir</h3>
+          <p>One of the twelve Jyotirlingas, the spiritual epicenter of Banaras. Dawn darshan is unforgettable.</p>
+        </div>
+      </article>
+
+      <article class="place">
+        <div class="place-art place-art-ghat" aria-hidden="true">
+          <svg viewBox="0 0 200 200">
+            <g fill="#f97316">
+              <rect x="20" y="140" width="160" height="10"/>
+              <rect x="20" y="125" width="160" height="10" opacity="0.7"/>
+              <rect x="20" y="110" width="160" height="10" opacity="0.5"/>
+              <path d="M 40 100 L 40 60 L 60 50 L 80 60 L 80 100 Z"/>
+              <path d="M 100 100 L 100 50 L 120 40 L 140 50 L 140 100 Z"/>
+              <circle cx="60" cy="45" r="4"/>
+              <circle cx="120" cy="35" r="4"/>
+              <!-- flames -->
+              <ellipse cx="60" cy="35" rx="3" ry="8" fill="#fef3c7"/>
+              <ellipse cx="120" cy="25" rx="3" ry="8" fill="#fef3c7"/>
+            </g>
+          </svg>
+        </div>
+        <div class="place-body">
+          <span class="place-dist">650 m · 8 min walk</span>
+          <h3>Dashashwamedh Ghat</h3>
+          <p>Watch the mesmerising Ganga Aarti every evening as priests offer fire, flowers and chants to the river.</p>
+        </div>
+      </article>
+
+      <article class="place">
+        <div class="place-art place-art-boat" aria-hidden="true">
+          <svg viewBox="0 0 200 200">
+            <g fill="#ea580c">
+              <path d="M 30 130 Q 100 160 170 130 L 160 150 Q 100 175 40 150 Z"/>
+              <rect x="95" y="80" width="4" height="55"/>
+              <path d="M 99 80 L 140 110 L 99 110 Z"/>
+              <!-- Water ripples -->
+              <path d="M 20 160 Q 40 165 60 160 M 70 165 Q 90 170 110 165 M 130 160 Q 150 165 170 160" stroke="#ea580c" stroke-width="2" fill="none"/>
+            </g>
+          </svg>
+        </div>
+        <div class="place-body">
+          <span class="place-dist">700 m · 9 min walk</span>
+          <h3>Manikarnika Ghat</h3>
+          <p>The eternal ghat where time feels suspended — a profound window into the cycle of life.</p>
+        </div>
+      </article>
+
+      <article class="place">
+        <div class="place-art place-art-paan" aria-hidden="true">
+          <svg viewBox="0 0 200 200">
+            <g fill="#16a34a">
+              <path d="M 100 40 Q 140 70 140 110 Q 140 150 100 160 Q 60 150 60 110 Q 60 70 100 40 Z"/>
+              <path d="M 100 40 L 100 160" stroke="#14532d" stroke-width="2"/>
+            </g>
+            <g fill="#f97316" opacity="0.6">
+              <circle cx="85" cy="90" r="4"/>
+              <circle cx="115" cy="100" r="4"/>
+              <circle cx="100" cy="120" r="4"/>
+            </g>
+          </svg>
+        </div>
+        <div class="place-body">
+          <span class="place-dist">300 m · 4 min walk</span>
+          <h3>Kachori Gali &amp; Paan</h3>
+          <p>The legendary food lanes of Banaras — start your morning with kachori-sabzi and end with sweet paan.</p>
+        </div>
+      </article>
+
+      <article class="place">
+        <div class="place-art place-art-sarnath" aria-hidden="true">
+          <svg viewBox="0 0 200 200">
+            <g fill="#dc2626">
+              <path d="M 100 40 Q 70 50 70 100 L 70 150 L 130 150 L 130 100 Q 130 50 100 40 Z"/>
+              <rect x="95" y="25" width="10" height="20"/>
+              <circle cx="100" cy="22" r="6"/>
+              <circle cx="100" cy="110" r="18" fill="#fbbf24"/>
+              <g stroke="#dc2626" stroke-width="1.5">
+                <line x1="100" y1="92" x2="100" y2="128"/>
+                <line x1="82" y1="110" x2="118" y2="110"/>
+                <line x1="87" y1="97" x2="113" y2="123"/>
+                <line x1="87" y1="123" x2="113" y2="97"/>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="place-body">
+          <span class="place-dist">11 km · 30 min drive</span>
+          <h3>Sarnath</h3>
+          <p>Where Buddha delivered his first sermon. The Dhamek Stupa and museum make for a peaceful half-day trip.</p>
+        </div>
+      </article>
+
+      <article class="place">
+        <div class="place-art place-art-bhu" aria-hidden="true">
+          <svg viewBox="0 0 200 200">
+            <g fill="#7c2d12">
+              <rect x="50" y="80" width="100" height="70"/>
+              <path d="M 40 80 L 100 40 L 160 80 Z"/>
+              <rect x="90" y="100" width="20" height="50" fill="#fbbf24"/>
+              <rect x="65" y="100" width="15" height="25" fill="#fbbf24"/>
+              <rect x="120" y="100" width="15" height="25" fill="#fbbf24"/>
+              <circle cx="100" cy="30" r="5"/>
+            </g>
+          </svg>
+        </div>
+        <div class="place-body">
+          <span class="place-dist">6 km · 20 min drive</span>
+          <h3>BHU &amp; Kashi Vishwanath (new)</h3>
+          <p>The beautiful Banaras Hindu University campus and its golden-domed temple replica.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="section-head">
+      <div class="section-eyebrow">Guest love</div>
+      <h2 class="section-title">What guests are <em>saying</em></h2>
+    </div>
+    <div class="reviews-grid">
+      <blockquote class="review">
+        <div class="stars">★★★★★</div>
+        <p>"The location is unbeatable — we walked to the ghats every morning. Rooms were spotless and the host was so welcoming. Felt like a real Banarasi home."</p>
+        <footer><span class="r-name">Priya S.</span><span class="r-meta">Stayed with family · 4 nights</span></footer>
+      </blockquote>
+      <blockquote class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Beautiful interiors and so much character. The floor-seating lounge is perfect for evening chai. 500m from Kashi Vishwanath as promised. Highly recommended."</p>
+        <footer><span class="r-name">Arjun M.</span><span class="r-meta">Solo traveller · 3 nights</span></footer>
+      </blockquote>
+      <blockquote class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Came with 5 friends — fit perfectly. Hot water at 5am for the morning aarti was a lifesaver. The host arranged a boat ride for us. We'll be back."</p>
+        <footer><span class="r-name">Neha &amp; friends</span><span class="r-meta">Group of 6 · 2 nights</span></footer>
+      </blockquote>
+      <blockquote class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Honestly the best Airbnb we've stayed at in India. Aesthetic, clean, central, and the host genuinely cares. Banaras hit different from this home base."</p>
+        <footer><span class="r-name">Rohan &amp; Anita</span><span class="r-meta">Couple · 5 nights</span></footer>
+      </blockquote>
+    </div>
+    <div class="reviews-cta">
+      <a href="https://www.airbnb.com/rooms/1541820174478965437" target="_blank" rel="noopener" class="btn btn-outline">Read all reviews on Airbnb →</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-left">
+        <div class="section-eyebrow light">Get in touch</div>
+        <h2 class="section-title light">Plan your <em>pilgrimage</em></h2>
+        <p class="contact-desc">Have a question about your stay, or want a custom itinerary for Banaras? Reach out — we respond quickly.</p>
+        <div class="contact-methods">
+          <a href="tel:+918340433789" class="cm">
+            <span class="cm-icon">📞</span>
+            <span class="cm-text"><small>Call / WhatsApp</small><strong>+91 83404 33789</strong></span>
+          </a>
+          <a href="mailto:Casabanaras@gmail.com" class="cm">
+            <span class="cm-icon">✉️</span>
+            <span class="cm-text"><small>Email</small><strong>Casabanaras@gmail.com</strong></span>
+          </a>
+          <a href="https://instagram.com/casabanaras" target="_blank" rel="noopener" class="cm">
+            <span class="cm-icon">📸</span>
+            <span class="cm-text"><small>Instagram</small><strong>@casabanaras</strong></span>
+          </a>
+          <a href="https://www.airbnb.com/rooms/1541820174478965437" target="_blank" rel="noopener" class="cm">
+            <span class="cm-icon">🏠</span>
+            <span class="cm-text"><small>Book Now</small><strong>View on Airbnb</strong></span>
+          </a>
+        </div>
+      </div>
+      <div class="contact-right" aria-hidden="true">
+        <div class="diya-big">
+          <svg viewBox="0 0 200 260">
+            <defs>
+              <radialGradient id="flameGrad" cx="50%" cy="30%" r="70%">
+                <stop offset="0%" stop-color="#fef3c7"/>
+                <stop offset="50%" stop-color="#fbbf24"/>
+                <stop offset="100%" stop-color="#ea580c"/>
+              </radialGradient>
+            </defs>
+            <!-- Flame -->
+            <path d="M 100 40 Q 80 80 90 120 Q 100 140 100 140 Q 100 140 110 120 Q 120 80 100 40 Z" fill="url(#flameGrad)"/>
+            <!-- wick -->
+            <rect x="98" y="135" width="4" height="18" fill="#4a1a0a"/>
+            <!-- diya bowl -->
+            <path d="M 40 160 Q 100 200 160 160 L 150 190 Q 100 220 50 190 Z" fill="#ea580c"/>
+            <path d="M 40 160 Q 100 200 160 160" stroke="#7c2d12" stroke-width="2" fill="none"/>
+            <!-- Glow -->
+            <circle cx="100" cy="100" r="60" fill="#fbbf24" opacity="0.15"/>
+            <circle cx="100" cy="100" r="90" fill="#fbbf24" opacity="0.08"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="footer-logo">🪔</span>
+        <div>
+          <strong>Casa Banaras</strong>
+          <span>Godowlia · Varanasi · India</span>
+        </div>
+      </div>
+      <div class="footer-tag">हर हर महादेव · Har Har Mahadev</div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Casa Banaras. All rights reserved.</span>
+      <span>Made with 🧡 in Kashi</span>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <a href="https://www.airbnb.com/rooms/1541820174478965437" target="_blank" rel="noopener" class="float-cta">
+    <span>Book Now</span>
+    <span class="float-cta-arrow">→</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
