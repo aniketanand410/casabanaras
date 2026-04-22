@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#fef7ed" />
   <title>Casa Banaras — Stay at the Heart of Varanasi</title>
   <meta name="description" content="A peaceful retreat in Godowlia, 500m from Kashi Vishwanath Mandir and Dashashwamedh Ghat. 3 beds, 2 baths, Wi-Fi, 24x7 hot water." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +18,7 @@
   <div class="top-border" aria-hidden="true"></div>
 
   <!-- Navigation -->
-  <nav class="nav">
+  <nav class="nav" id="site-nav">
     <a href="#top" class="nav-logo">
       <img src="logo.jpeg" alt="Casa Banaras Logo" class="nav-logo-img" />
       <span class="nav-logo-text">
@@ -25,15 +26,24 @@
         <span class="nav-logo-sub">काशी · Varanasi</span>
       </span>
     </a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#amenities">Amenities</a></li>
-      <li><a href="#nearby">Nearby</a></li>
-      <li><a href="#reviews">Reviews</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <a href="https://www.airbnb.com/rooms/1541820174478965437" target="_blank" rel="noopener" class="nav-book">Book on Airbnb</a>
+    <div class="nav-panel" id="nav-panel">
+      <div class="nav-panel-inner">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#nearby">Nearby</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-actions">
+      <a href="https://www.airbnb.com/rooms/1541820174478965437" target="_blank" rel="noopener" class="nav-book">Book on Airbnb</a>
+      <button type="button" class="nav-menu-btn" id="nav-menu-btn" aria-expanded="false" aria-controls="nav-panel" aria-label="Open menu">
+        <span class="nav-menu-btn-lines" aria-hidden="true"></span>
+      </button>
+    </div>
   </nav>
 
   <!-- HERO -->
